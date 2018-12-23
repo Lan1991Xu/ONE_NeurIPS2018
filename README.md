@@ -16,28 +16,19 @@ You may refer to our [Vedio](http://www.eecs.qmul.ac.uk/~xl309/Doc/Publication/2
 - Python 2.7. 
 - Pytorch version == 2.0.0. 
 
-```
+
 
 
 ## Running Experiments
 
 ### Training: 
 
-
-
-
+```
 For example, to train the ONE model using `ResNet-32` on CIFAR100, run the the following scripts.
-
-```
-
-```
-
-
-
-
-### Testing: 
-
-
+bash ONE_ResNet32.sh
+to train baseline model using `ResNet-32` on CIFAR100, run the the following scripts.
+python cifar_baseline.py -a one_resnet --dataset cifar100 --depth 32 --epochs 300 --consistency_rampup 80 --gpu-id 5 --schedule 151 225  --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar100/baseline-32
+ResNet-110 can also be executed by change the depth 32 to 110
 ```
 ## Tip for Stabilizing Model Training
 It may help to ramp up [https://arxiv.org/abs/1703.01780] the KL cost in the beginning over the first few epochs until the teacher network starts giving good predictions.
