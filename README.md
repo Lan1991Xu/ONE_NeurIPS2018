@@ -30,7 +30,7 @@ bash ONE_ResNet32.sh
 ```
 to train baseline model using `ResNet-32` on CIFAR100, run the the following scripts.
 ```
-python cifar_baseline.py -a one_resnet --dataset cifar100 --depth 32 --epochs 300 --consistency_rampup 80 --gpu-id 5 --schedule 151 225  --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar100/baseline-32
+python cifar_baseline.py -a resnet --dataset cifar100 --depth 32 --epochs 300  --gpu-id 5 --schedule 151 225  --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar100/baseline-32
 ```
 ResNet-110 can also be executed by change the depth 32 to 110
 
