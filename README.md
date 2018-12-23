@@ -42,10 +42,11 @@ Please refer to the following if this repository is useful for your research.
 ### Bibtex:
 
 ```
-@article{lan2018knowledge,
+@inproceedings{lan2018knowledge,
   title={Knowledge Distillation by On-the-Fly Native Ensemble},
   author={Lan, Xu and Zhu, Xiatian and Gong, Shaogang},
-  journal={arXiv preprint arXiv:1806.04606},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={7527--7537},
   year={2018}
 }
 ```
