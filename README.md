@@ -20,17 +20,19 @@ You may refer to our [Vedio](http://www.eecs.qmul.ac.uk/~xl309/Doc/Publication/2
 
 
 ## Running Experiments
-
+you may need change GPU-ID in scripts， “--gpu-id”， the default is 0.
 ### Training: 
 
 
-For example, to train the ONE model using `ResNet-32` on CIFAR100, run the the following scripts.
+For example, to train the ONE model using `ResNet-32` or `ResNet-110`  on CIFAR100, run the the following scripts.
 ```
-bash ONE_ResNet32.sh
+bash scripts/ONE_ResNet32.sh
+bash scripts/ONE_ResNet110.sh
 ```
 to train baseline model using `ResNet-32` on CIFAR100, run the the following scripts.
 ```
-python cifar_baseline.py -a resnet --dataset cifar100 --depth 32 --epochs 300  --gpu-id 5 --schedule 151 225  --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar100/baseline-32
+bash scripts/Baseline_ResNet32.sh
+bash scripts/Baseline_ResNet110.sh
 ```
 ResNet-110 can also be executed by change the depth 32 to 110
 
