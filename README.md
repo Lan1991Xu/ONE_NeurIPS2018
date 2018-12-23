@@ -29,7 +29,7 @@ For example, to train the ONE model using `ResNet-32` or `ResNet-110`  on CIFAR1
 bash scripts/ONE_ResNet32.sh
 bash scripts/ONE_ResNet110.sh
 ```
-to train baseline model using `ResNet-32` on CIFAR100, run the the following scripts.
+To train baseline model using `ResNet-32` or `ResNet-110` on CIFAR100, run the the following scripts.
 ```
 bash scripts/Baseline_ResNet32.sh
 bash scripts/Baseline_ResNet110.sh
