@@ -39,7 +39,8 @@ For example, to train the ONE model using `ResNet-32` on CIFAR100, run the the f
 
 
 ```
-
+## Tip for Stabilizing Model Training
+It may help to ramp up [https://arxiv.org/abs/1703.01780] the KL cost in the beginning over the first few epochs until the teacher network starts giving good predictions.
 ## Citation
 Please refer to the following if this repository is useful for your research.
 
