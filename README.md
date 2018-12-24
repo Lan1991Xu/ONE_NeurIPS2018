@@ -55,7 +55,7 @@ Please refer to the following if this repository is useful for your research.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Lan1991Xu/ONE_NeurIPS2018/blob/master/LICENSE) file for details.
 
 
 ## Acknowledgements
