@@ -1,0 +1,1 @@
+python cifar_one.py -a one_resnet  --dataset cifar100 --depth 110 --epochs 300 --gpu-id 5 --schedule 151 225  --gamma 0.1 --wd 1e-4 --consistency_rampup 80 --checkpoint checkpoints/cifar100/ONE-32-rampup
