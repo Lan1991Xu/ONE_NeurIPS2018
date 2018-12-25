@@ -34,7 +34,6 @@ To train baseline model using `ResNet-32` or `ResNet-110` on CIFAR100, run the t
 bash scripts/Baseline_ResNet32.sh
 bash scripts/Baseline_ResNet110.sh
 ```
-ResNet-110 can also be executed by change the depth 32 to 110
 
 ## Tip for Stabilizing Model Training
 It may help to ramp up [https://arxiv.org/abs/1703.01780] the KL cost in the beginning over the first few epochs until the teacher network starts giving good predictions.
