@@ -5,7 +5,6 @@ from .logger import *
 from .visualize import *
 from .eval import *
 from .ramps import *
-from .flops_benchmark import *
 # progress bar
 import os, sys
 sys.path.append(os.path.join(os.path.dirname(__file__), "progress"))
