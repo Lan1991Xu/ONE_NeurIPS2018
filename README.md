@@ -14,7 +14,7 @@ You may refer to our [Vedio](http://www.eecs.qmul.ac.uk/~xl309/Doc/Publication/2
 
 - Datasets: CIFAR100, CIFAR10
 - Python 2.7. 
-- Pytorch version == 2.0.0. 
+- Pytorch version == 0.2.0. 
 
 
 
